@@ -12,3 +12,7 @@
 ## Programming Languages
 
 - [C](./pages/programming-languages/c/c.md)
+
+## Data Science
+
+- [Data Analysis](./pages/data-science/data-analysis/data-analysis.md)
