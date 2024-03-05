@@ -13,7 +13,7 @@ A sequential list (usually) supports the following operations:
 - `add(i, e)` insert element e at index i existing elements with index ≥ i are shifted up
 - `remove(i)` remove and return the element at index i existing elements with index ≥ i are shifted down
 
-One example of the sequential list is the [array](./array.md).
+One example of the sequential list is the [array](./arrays.md).
 
 ## Positional Lists
 
