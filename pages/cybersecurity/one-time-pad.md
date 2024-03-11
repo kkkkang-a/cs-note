@@ -1,9 +1,16 @@
 # One-Time Pad Symmetric Encryption
 
-In cryptography, a one-time pad is a system in which a randomly generated private key is used only once to encrypt a message that is then decrypted by the receiver using a matching one-time pad and key.
+In cryptography, a one-time pad is a system where a randomly generated private key is used only once to encrypt a message, which is then decrypted by the receiver using a matching one-time pad and key.
 
-Typically, a one-time pad is created by generating a string of characters or numbers that will be at least as long as the longest message that will be sent. This string of values is generated in some random fashion, such as by using a computer program with a random number generator.
+One-time pads are typically used in situations where security is of utmost importance, and the overhead of managing unique keys is acceptable.
 
-Each encryption is unique and bears no relation to the next encryption, making it impossible to detect pattern.
+## Advantage
 
-But with a one-time pad, the decrypting party must have access to the same key used to encrypt the message; this raises the issue of how to get the key to the decrypting party safely, or how to keep both keys secure
+- **Unbreakable Encryption**: Each encryption is unique and bears no relation to the next encryption, making it practically impossible to detect patterns.
+- **Perfect Secrecy**: When implemented correctly, a one-time pad provides perfect secrecy, meaning the encrypted message reveals no information about the original message without the key.
+
+## Disadvantage
+
+- **Key Length**: The key length has to be as long as the message, which can be impractical for large messages.
+- **Key Reuse**: The key can be used only once, requiring the distribution and management of a large number of unique keys.
+- **Key Distribution**: The challenge lies in securely distributing or exchanging the key between the sender and the receiver, as the key must be kept secret to maintain the security of the communication.

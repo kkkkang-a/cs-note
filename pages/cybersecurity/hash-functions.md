@@ -12,13 +12,13 @@ The output, often called a hash value or hash code, is unique to the input data.
 
 ## Properties
 
-### One-Wayness
+### One-Way
 
 Encryption is a two-way function; hashing is a one-way function.
 
 While it's technically possible to reverse-hash something, the computing power required makes it unfeasible. Hashing is one-way.
 
-One-wayness implies that given the output (hash), it's computationally infeasible to determine the original input. This property is vital in password storage, where even if an attacker obtains the hash, it's challenging to reverse-engineer the password.
+One-way feature implies that given the output (hash), it's computationally infeasible to determine the original input. This property is vital in password storage, where even if an attacker obtains the hash, it's challenging to reverse-engineer the password.
 
 ### Collision Resistance
 

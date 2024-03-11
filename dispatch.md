@@ -12,6 +12,7 @@
 ## Programming Languages
 
 - [C](./pages/programming-languages/c/c.md)
+- [SQL](./pages/programming-languages/sql/sql.md)
 
 ## Data Science
 

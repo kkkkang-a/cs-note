@@ -8,11 +8,7 @@ A block cipher enciphers input in blocks of plaintext as opposed to individual c
 
 ## Block Cipher
 
-Block ciphers are cryptographic algorithms that operate on fixed-length groups of bits, called blocks.
-
-These ciphers take a block of plaintext bits and a key as inputs and output a block of ciphertext bits of the same size.
-
-The key is used to determine the mapping between plaintext and ciphertext.
+A [block cipher](./blocker-cipher.md) breaks down plaintext messages into fixed-size blocks before converting them into ciphertext using a key.
 
 Popular block ciphers include:
 - Data Encryption Standard (DES)
@@ -20,34 +16,13 @@ Popular block ciphers include:
 - Triple DES (3DES)
 - Blowfish
 
-
 ## Stream Cipher
 
-A stream cipher is an encryption algorithm that uses a symmetric key to encrypt and decrypt a given amount of data.
+A [stream cipher](./stream-cipher.md) breaks a plaintext message down into single bits, which then are converted individually into ciphertext using key bits.
 
-It can be viewed as approximating the action of a proven unbreakable cipher, the [one-time pad](./one-time-pad.md) (OTP).
-
-A symmetric cipher key, as opposed to an asymmetric cipher key, is an encryption tool that is used in both encryption and decryption.
-
-Asymmetric keys will sometimes use one key to encrypt a message and another to decrypt the respective ciphertext.
+It can be viewed as approximating the action of a proven unbreakable cipher, the [one-time pad](./one-time-pad.md).
 
 Examples of stream ciphers include:
 - A4 for GSM cellular networks
 - RC4 algorithm for for wireless networks
 - Salsa20/ChaCha20 family of algorithms
-
-### Inplementation
-
-Stream ciphers can be implemented using algorithms that generate a keystream from a key and an initialization vector (IV). This keystream is then XORed with the plaintext stream to produce the ciphertext.
-
-### Stream Cipher vs One Time Pad
-
-Stream cipher:
-- easy to implement
-- required less key material
-- less storage space, bit by bit
-- depends on secrecy of key, nonce, and pseudorandom generator
-
-One time Pad:
-- theoretically unbreakable as every time a new random keystream
-- long keys, more storage, very strong key distribution
