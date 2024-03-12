@@ -1,6 +1,6 @@
-# C Pointers
+# Pointers
 
-A pointer is a variable that stores the [memory address](./c-memory-address.md) of another variable as its value.
+A pointer is a variable that stores the [memory address](./memory-address.md) of another variable as its value.
 
 A pointer variable points to a data type of the same type.
 

@@ -1,5 +1,9 @@
 # Dispatch
 
+## Operating System
+
+- [Operating System](./pages/operating-system/operating-system.md)
+
 ## Data Structures and Algorithms
 
 - [Algorithms](./pages/data-structures-and-algorithms/algorithms/algorithms.md)

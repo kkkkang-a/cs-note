@@ -1,3 +1,3 @@
-# C Enums
+# Enums
 
 Size: 4 bytes

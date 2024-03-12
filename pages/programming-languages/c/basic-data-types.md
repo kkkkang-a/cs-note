@@ -1,4 +1,4 @@
-# C Basic Data Types
+# Basic Data Types
 
 A variable in C must be a specified data type, and you must use a format specifier inside the printf() function to display it.
 

@@ -6,10 +6,20 @@ It is a very popular language, despite being old. The main reason for its popula
 
 C is strongly associated with UNIX, as it was developed to write the UNIX operating system.
 
-- [C Data Types](./c-basic-data-types.md)
-- [C Arrays](./c-arrays.md)
-- [C Strings](./c-strings.md)
-- [C User Input](./c-user-input.md)
-- [C Memory Address](./c-memory-address.md)
-- [C Pointers](./c-pointers.md)
-- [C Enums](./c-enums.md)
+## C Syntax
+
+- [Data Types](./basic-data-types.md)
+- [Arrays](./arrays.md)
+- [Strings](./strings.md)
+- [User Input](./user-input.md)
+- [Functions](./functions.md)
+- [Memory Address](./memory-address.md)
+- [Pointers](./pointers.md)
+- [Enums](./enums.md)
+- [Structures](./structures.md)
+- [Union](./union.md)
+- [Bit Fields](./bitfields.md)
+- [Files](./files.md)
+
+## Memory Managements
+

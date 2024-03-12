@@ -1,4 +1,4 @@
-# C User Input
+# User Input
 
 To get user input, you can use the `scanf()` function.
 
