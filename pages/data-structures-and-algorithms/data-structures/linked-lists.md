@@ -9,8 +9,8 @@ It contains sequence of Nodes, each with a reference to the next node
 List captured by reference (head) to the first Node
 
 Each Node in a singly linked List stores
-- its element, and
-- a link to the next node.
+- its element
+- a link to the next node
 
 ### Getter Method
 

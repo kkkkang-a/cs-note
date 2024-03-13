@@ -12,6 +12,8 @@ We say the binary tree is proper if every internal node has two children.
 ## Types of Binary Trees
 
 - [Binary Search Trees](./binary-search-trees.md)
+- [Balanced Trees](./balanced-trees.md)
+    - [AVL Trees](./avl-trees.md)
 
 ## Operations
 
