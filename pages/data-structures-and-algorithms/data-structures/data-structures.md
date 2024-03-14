@@ -25,3 +25,4 @@ The distinction between ADTs and data structures is subtle but akin to the diffe
 - [Queues](./queues.md)
 - [Trees](./trees.md)
     - [Binary Trees](./binary-trees.md)
+- [Maps](./maps.md)

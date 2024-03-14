@@ -46,7 +46,7 @@ If `k` is found in the tree, replace the corresponding value by `o`.
 
 If `k` is not found, let `w` be the external node reached by the search. We replace `w` with an internal node holding `(k, o)`.
 
-### Deletion
+### Removal
 
 To perform operation `remove(k)`, we search for key `k` (using search) to find the node `w` holding `k`.
 
@@ -105,7 +105,7 @@ after removal of 3:
    2   7   9
 ```
 
-#### Deletion Algorithm
+#### Removal Algorithm
 
 ```
 def remove(k)
@@ -127,7 +127,9 @@ def remove(k)
 
 ### Range Queries
 
-A range query is defined by two values `k1` and `k2`. We are to find all keys `k` stored in `T` such that $$k_1 \leq k \leq k_2$.
+A range query is defined by two values `k1` and `k2`. We are to find all keys `k` stored in `T` such that:
+
+$$k_1 \leq k \leq k_2$$
 
 The algorithm is a restricted version of inorder traversal. When at node `v`:
 - if $key(v) \lt k_1$: Recursively search right subtree
@@ -151,6 +153,8 @@ def range(v, k1, k2)
         output.append(v)
         range(v.right, k1, k2)
 ```
+
+Since we only spend $O(1)$ time per node we visit, the total running time of range search is $O(|\text{output}| + \text{tree height})$.
 
 ## Performance
 
