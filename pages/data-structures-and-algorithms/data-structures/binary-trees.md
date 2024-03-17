@@ -11,13 +11,13 @@ We say the binary tree is proper if every internal node has two children.
 
 ## Types of Binary Trees
 
-- [Binary Search Trees](./binary-search-trees.md)
-- [Balanced Trees](./balanced-trees.md)
-    - [AVL Trees](./avl-trees.md)
+- [Binary Search Trees](pages/data-structures-and-algorithms/data-structures/binary-search-trees.md)
+- [Balanced Trees](pages/data-structures-and-algorithms/data-structures/balanced-trees.md)
+    - [AVL Trees](pages/data-structures-and-algorithms/data-structures/avl-trees.md)
 
 ## Operations
 
-A binary tree extends the [Tree operations](./trees.md#operations).
+A binary tree extends the [Tree operations](pages/data-structures-and-algorithms/data-structures/trees.md#operations).
 
 Additional methods:
 - `leftChild(p)`: Returns the left child of a given node position `p`.
@@ -38,7 +38,7 @@ def is_external(v)
 
 ## Traversing Binary Trees
 
-[Eular tour traversal](./euler-tour-traserval.md) is gaeneric traversal of a binary tree.
+[Eular tour traversal](pages/data-structures-and-algorithms/data-structures/euler-tour-traserval.md) is gaeneric traversal of a binary tree.
 
 ### Inorder Traversal
 

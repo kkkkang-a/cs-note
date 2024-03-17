@@ -30,17 +30,17 @@ If a map is sorted, it supports more operations.
 
 ### List-Based (Unsorted) Map
 
-We can implement a map using an unsorted [list](./lists.md) of key-item pairs
+We can implement a map using an unsorted [list](pages/data-structures-and-algorithms/data-structures/lists.md) of key-item pairs
 
 To do a get and put we may have to traverse the whole list, so those operations take $O(n)$ time.
 
 Only feasible if map is very small or if we put things at the end and do not need to perform many gets (i.e., system log).
 
-![list-based-map](/images/list-based-map.png)
+![list-based-map](images/list-based-map.png)
 
 ### Tree-Based (Sorted) Map
 
-We can implement a sorted map using an [AVL tree](./avl-trees.md), where each node stores a key-item pair.
+We can implement a sorted map using an [AVL tree](pages/data-structures-and-algorithms/data-structures/avl-trees.md), where each node stores a key-item pair.
 
 To do a get or a put we search for the key in the tree, so these operations take $O(h)$ time, which can be $O(\log_2n)$ if the tree is balanced.
 

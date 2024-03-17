@@ -2,7 +2,7 @@
 
 C union allows the declarance of variables that occupy the same memory.
 
-Unlike a [struct](./structures.md) variable, a variable of union type, only one of its members can contain a value at any given time, whereas a struct variable stores values of all the elements.
+Unlike a [struct](pages/programming-languages/c/structures.md) variable, a variable of union type, only one of its members can contain a value at any given time, whereas a struct variable stores values of all the elements.
 
 
 ## Syntax

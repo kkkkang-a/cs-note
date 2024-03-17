@@ -69,7 +69,7 @@ Let `a`, `b`, `c` be the inorder listing of `x`, `y`, `z`
 
 Perform the rotations so as to make `b` the topmost node of the three.
 
-![single-rotation](/images/single-rotation.png)
+![single-rotation](images/single-rotation.png)
 
 ### Double Rotation
 
@@ -79,7 +79,7 @@ Let `a`, `b`, `c` be the inorder listing of `x`, `y`, `z`
 
 Perform the rotations so as to make `b` the topmost node of the three.
 
-![double-rotation](/images/double-rotation.png)
+![double-rotation](images/double-rotation.png)
 
 ## Performance
 

@@ -1,6 +1,6 @@
 # Pointers
 
-A pointer is a variable that stores the [memory address](./memory-address.md) of another variable as its value.
+A pointer is a variable that stores the [memory address](pages/programming-languages/c/memory-address.md) of another variable as its value.
 
 A pointer variable points to a data type of the same type.
 
@@ -75,7 +75,7 @@ The value of the variable can be get from the pointer points to, by using the `*
 
 ### Pointer Arithmetic
 
-![pointer-arithmetic](/images/pointer-arithmetic.png)
+![pointer-arithmetic](images/pointer-arithmetic.png)
 
 Seeking to the nth byte from a starting address:
 
@@ -98,7 +98,7 @@ char *str = &msg[0];    // the memory address of the first element
 char *str = msg;        // array itself has the address of the first element
 ```
 
-![c-pointers-and-string-arrays](/images/c-pointers-and-string-arrays.png)
+![c-pointers-and-string-arrays](images/c-pointers-and-string-arrays.png)
 
 Pointer notation leads to some shortcuts. For example, moving through a string:
 

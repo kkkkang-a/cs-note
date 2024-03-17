@@ -20,7 +20,7 @@ Electronic code book is the easiest block cipher mode of functioning.
 
 It is easier because of direct encryption of each block of input plaintext and output is in form of blocks of encrypted ciphertext.
 
-![block-cipher-ecb](/images/block-cipher-ecb.png)
+![block-cipher-ecb](images/block-cipher-ecb.png)
 
 1. **Single Key Usage**: The same encryption key is applied to each plaintext block independently.
 2. **Parallel Encryption**: ECB allows for parallel encryption, as each block is processed independently of the others. This means that the encryption of one block doesn't depend on the results of previous blocks.
@@ -35,7 +35,7 @@ In CBC, the previous cipher block is given as input to the next encryption algor
 
 In a nutshell, a cipher block is produced by encrypting an XOR output of the previous cipher block and present plaintext block.
 
-![block-cipher-cbc](/images/block-cipher-cbc.png)
+![block-cipher-cbc](images/block-cipher-cbc.png)
 
 It is a sequential process that builds upon previous data blocks.
 

@@ -2,7 +2,7 @@
 
 Structures (also called structs) are a way to group several related variables into one place. Each variable in the structure is known as a member of the structure.
 
-Unlike an [array](./arrays.md), a structure can contain many different data types (int, float, char, etc.).
+Unlike an [array](pages/programming-languages/c/arrays.md), a structure can contain many different data types (int, float, char, etc.).
 
 ## Syntax
 

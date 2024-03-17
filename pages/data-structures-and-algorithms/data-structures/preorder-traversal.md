@@ -40,4 +40,4 @@ The preorder traversal of this tree would visit nodes in the order: A, B, D, E, 
 
 Example 2:
 
-![preorder-traversal](/images/preorder-traversal.png)
+![preorder-traversal](images/preorder-traversal.png)

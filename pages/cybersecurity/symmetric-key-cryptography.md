@@ -8,7 +8,7 @@ A block cipher enciphers input in blocks of plaintext as opposed to individual c
 
 ## Block Cipher
 
-A [block cipher](./blocker-cipher.md) breaks down plaintext messages into fixed-size blocks before converting them into ciphertext using a key.
+A [block cipher](pages/cybersecurity/blocker-cipher.md) breaks down plaintext messages into fixed-size blocks before converting them into ciphertext using a key.
 
 Popular block ciphers include:
 - Data Encryption Standard (DES)
@@ -18,9 +18,9 @@ Popular block ciphers include:
 
 ## Stream Cipher
 
-A [stream cipher](./stream-cipher.md) breaks a plaintext message down into single bits, which then are converted individually into ciphertext using key bits.
+A [stream cipher](pages/cybersecurity/stream-cipher.md) breaks a plaintext message down into single bits, which then are converted individually into ciphertext using key bits.
 
-It can be viewed as approximating the action of a proven unbreakable cipher, the [one-time pad](./one-time-pad.md).
+It can be viewed as approximating the action of a proven unbreakable cipher, the [one-time pad](pages/cybersecurity/one-time-pad.md).
 
 Examples of stream ciphers include:
 - A4 for GSM cellular networks

@@ -1,3 +1,3 @@
 # Operating System
 
-- [Files](./files.md)
+- [Files](pages/operating-system/files.md)

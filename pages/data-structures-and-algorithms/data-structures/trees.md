@@ -83,9 +83,9 @@ A traversal visits the nodes of a tree in a systematic manner.
 
 When traversing a simpler structure like a list there is one natural traversal strategy (forward or backwards)
 
-[Eular tour traversal](./euler-tour-traserval.md) is gaeneric traversal of a binary tree.
+[Eular tour traversal](pages/data-structures-and-algorithms/data-structures/euler-tour-traserval.md) is gaeneric traversal of a binary tree.
 
 Trees are more complex and admit more than one natural way:
-- [pre-order](./preorder-traversal.md)
-- [post-order](./postorder-traversal.md)
-- [in-order](./binary-trees.md#inorder-traversal) (for [binary trees](./binary-trees.md))
+- [pre-order](pages/data-structures-and-algorithms/data-structures/preorder-traversal.md)
+- [post-order](pages/data-structures-and-algorithms/data-structures/postorder-traversal.md)
+- [in-order](pages/data-structures-and-algorithms/data-structures/binary-trees.md#inorder-traversal) (for [binary trees](pages/data-structures-and-algorithms/data-structures/binary-trees.md))
