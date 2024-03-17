@@ -1,6 +1,6 @@
 # Files
 
-`FILE` is a [struct](pages/programming-languages/c/structures.md) that is defined in stdio.h and this is the descriptor.
+`FILE` is a [struct](structures.md) that is defined in stdio.h and this is the descriptor.
 
 To open a file, we use the `fopen` function.
 

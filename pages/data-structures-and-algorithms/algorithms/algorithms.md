@@ -2,7 +2,7 @@
 
 Algorithms are sets of instructions used to solve a problem.
 
-To represent an algorithm in code, the [pseudocode](pages/data-structures-and-algorithms/algorithms/pseudocode.md) is used.
+To represent an algorithm in code, the [pseudocode](pseudocode.md) is used.
 
 ## Analysis of Algorithms
 
@@ -18,4 +18,4 @@ different algorithms. It bounds the algorithm’s worst-case performance.
 
 An algorithm is efficient if it runs in polynomial time.
 
-- [Asymptotic Growth Analysis](pages/data-structures-and-algorithms/algorithms/asymptotic-growth-analysis.md)
+- [Asymptotic Growth Analysis](asymptotic-growth-analysis.md)

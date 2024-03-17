@@ -38,4 +38,4 @@ The postorder traversal of this tree would visit nodes in the order: D, E, B, C,
 
 Example 2:
 
-![postorder-traversal](images/postorder-traversal.png)
+![postorder-traversal](../../../images/postorder-traversal.png)

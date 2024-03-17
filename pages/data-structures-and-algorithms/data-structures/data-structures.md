@@ -18,11 +18,11 @@ A data structure, on the other hand, is a concrete representation of data from t
 
 The distinction between ADTs and data structures is subtle but akin to the difference between a computational problem and an algorithm.
 
-- [Lists](pages/data-structures-and-algorithms/data-structures/lists.md)
-    - [Arrays](pages/data-structures-and-algorithms/data-structures/arrays.md)
-    - [Linked Lists](pages/data-structures-and-algorithms/data-structures/linked-lists.md)
-- [Stacks](pages/data-structures-and-algorithms/data-structures/stacks.md)
-- [Queues](pages/data-structures-and-algorithms/data-structures/queues.md)
-- [Trees](pages/data-structures-and-algorithms/data-structures/trees.md)
-    - [Binary Trees](pages/data-structures-and-algorithms/data-structures/binary-trees.md)
-- [Maps](pages/data-structures-and-algorithms/data-structures/maps.md)
+- [Lists](lists.md)
+    - [Arrays](arrays.md)
+    - [Linked Lists](linked-lists.md)
+- [Stacks](stacks.md)
+- [Queues](queues.md)
+- [Trees](trees.md)
+    - [Binary Trees](binary-trees.md)
+- [Maps](maps.md)

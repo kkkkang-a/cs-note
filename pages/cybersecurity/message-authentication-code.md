@@ -2,7 +2,7 @@
 
 A Message Authentication Code (MAC) is a string of bits that is sent alongside a message. The MAC depends on the message itself and a secret key. No one should be able to compute a MAC without knowing the key. 
 
-It is similar to a [hash](pages/cybersecurity/hash-functions.md), except that it is based on a secret key.
+It is similar to a [hash](hash-functions.md), except that it is based on a secret key.
 
 Unlike hash functions, MAC guarantees the integrity and authentication of sender.
 

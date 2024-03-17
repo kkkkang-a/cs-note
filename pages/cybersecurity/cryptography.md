@@ -4,11 +4,11 @@ Cryptography in cybersecurity can be used to secure communications by encrypting
 
 ## Traditional Cryptography
 
-- [One-Time-Pad (OTP)](pages/cybersecurity/one-time-pad.md)
+- [One-Time-Pad (OTP)](one-time-pad.md)
 
 ## Modern Cryptography
 
-- [Symmetric-Key Cryptography](pages/cybersecurity/symmetric-key-cryptography.md)
-- [Asymmetric-Key Cryptography](pages/cybersecurity/asymmetric-key-cryptography.md)
-- [Hash Functions](pages/cybersecurity/hash-functions.md)
-- [Message Authentication Code (MAC)](pages/cybersecurity/message-authentication-code.md)
+- [Symmetric-Key Cryptography](symmetric-key-cryptography.md)
+- [Asymmetric-Key Cryptography](asymmetric-key-cryptography.md)
+- [Hash Functions](hash-functions.md)
+- [Message Authentication Code (MAC)](message-authentication-code.md)

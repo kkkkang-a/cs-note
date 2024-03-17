@@ -13,7 +13,7 @@ A sequential list (usually) supports the following operations:
 - `add(i, e)` insert element e at index i existing elements with index ≥ i are shifted up
 - `remove(i)` remove and return the element at index i existing elements with index ≥ i are shifted down
 
-One example of the sequential list is the [array](pages/data-structures-and-algorithms/data-structures/arrays.md).
+One example of the sequential list is the [array](arrays.md).
 
 ## Positional Lists
 
@@ -37,7 +37,7 @@ A positional list (usually) supports the following operations:
 - `insertAfter(p, e)` insert e following the element at position p
 - `remove(p)` remove and return the element at position p
 
-One example of the positional list is the [linked list](pages/data-structures-and-algorithms/data-structures/linked-lists.md).
+One example of the positional list is the [linked list](linked-lists.md).
 
 ## Comparesion Between Array and Linked List
 

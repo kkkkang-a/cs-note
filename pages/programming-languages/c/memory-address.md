@@ -15,7 +15,7 @@ printf("%p", &myAge); // Outputs 0x7ffe5367e044
 
 The memory address is in hexadecimal form (0x..). You will probably not get the same result in your program, as this depends on where the variable is stored on your computer.
 
-`&myAge` is often called a [pointer](pages/programming-languages/c/pointers.md). A pointer basically stores the memory address of a variable as its value. To print pointer values, we use the `%p` format specifier.
+`&myAge` is often called a [pointer](pointers.md). A pointer basically stores the memory address of a variable as its value. To print pointer values, we use the `%p` format specifier.
 
 An example of the the address operator in action is to receive an integer from standard input.
 

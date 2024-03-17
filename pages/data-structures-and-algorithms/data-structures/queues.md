@@ -75,6 +75,6 @@ Implement a round robin scheduler using a queue `Q` by repeatedly performing the
 2. Service element `e`
 3. `Q.enqueue(e)`
 
-![round-robin-schedulers-using-queue](images/round-robin-schedulers-using-queue.png)
+![round-robin-schedulers-using-queue](../../../images/round-robin-schedulers-using-queue.png)
 
 This approach ensures fair sharing of resources among processes or tasks by cycling through them in a round-robin fashion.
