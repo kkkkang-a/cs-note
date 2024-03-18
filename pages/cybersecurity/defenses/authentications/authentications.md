@@ -19,6 +19,6 @@ This type of authentication is not recommended for financial or personally relev
 
 ### Multi-Factor Authentication
 
-[Multi-factor authentication](multi-factor-authentications.md.md) involves two or more authentication factors (something you know, something you have, or something you are).
+[Multi-factor authentication](multi-factor-authentications.md) involves two or more authentication factors (something you know, something you have, or something you are).
 
 Two-factor authentication is a special case of multi-factor authentication involving exactly two factors.
