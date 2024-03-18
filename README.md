@@ -2,7 +2,7 @@
 
 This is a collection of notes for self learning computer science.
 
-All notes can be found in the [dispatch](./dispatch.md) page.
+All notes can be found in the [dispatch](dispatch.md) page.
 
 If you wish to contribute to this site, please:
 1. fork the [GitHub reporitory](https://github.com/kkkkang-a/cs-note)

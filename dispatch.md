@@ -11,8 +11,8 @@
 
 ## Cybersecurity
 
-- [Authentication](pages/cybersecurity/authentication.md)
-- [Cryptography](pages/cybersecurity/cryptography.md)
+- [Threats](pages/cybersecurity/threats/threats.md)
+- [Defenses](pages/cybersecurity/defenses/defenses.md)
 
 ## Programming Languages
 
