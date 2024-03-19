@@ -4,7 +4,7 @@ To get user input, you can use the `scanf()` function.
 
 The `scanf()` function takes two arguments:
 1. the format specifier of the variable
-2. the reference operator which stores the [memory address](memory-address.md) of the variable.
+2. the reference operator which stores the [memory address](../memory-management/memory-address.md) of the variable.
 
 ```c
 // Create an integer variable that will store the number we get from the user

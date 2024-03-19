@@ -4,7 +4,7 @@ The rainbow table itself refers to a precomputed table that contains the passwor
 
 A rainbow table attack is a password cracking method that uses a special table (a “rainbow table”) to crack the password hashes in a database.
 
-Applications don’t store passwords in plaintext, but instead encrypt passwords using [hashes](../defenses/cryptography/hash-functions.md).
+Applications don’t store passwords in plaintext, but instead encrypt passwords using [hashes](../defences/cryptography/hash-functions.md).
 
 If hackers gain access to the list of password hashes, they can crack all passwords very quickly with a rainbow table.
 
@@ -15,7 +15,7 @@ If hackers gain access to the list of password hashes, they can crack all passwo
 
 ## Defenses
 
-The best protection against the rainbow table attack is to use a [salt](../defenses/cryptography/salt.md) (random characters) in your password. i.e. instead of storing `hash(password)`, store `hash(password + salt)`, or even better `hash(salt + hash(password))`.
+The best protection against the rainbow table attack is to use a [salt](../defences/cryptography/salt.md) (random characters) in your password. i.e. instead of storing `hash(password)`, store `hash(password + salt)`, or even better `hash(salt + hash(password))`.
 
 Since even with rainbow tables, it is going to be near impossible to store all possible salted hashes.
 

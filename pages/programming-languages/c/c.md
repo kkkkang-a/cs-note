@@ -8,18 +8,19 @@ C is strongly associated with UNIX, as it was developed to write the UNIX operat
 
 ## C Syntax
 
-- [Data Types](basic-data-types.md)
-- [Arrays](arrays.md)
-- [Strings](strings.md)
-- [User Input](user-input.md)
-- [Functions](functions.md)
-- [Memory Address](memory-address.md)
-- [Pointers](pointers.md)
-- [Enums](enums.md)
-- [Structures](structures.md)
-- [Union](union.md)
-- [Bit Fields](bitfields.md)
-- [Files](files.md)
+- [Data Types](basic-syntax/basic-data-types.md)
+- [Arrays](basic-syntax/arrays.md)
+- [Strings](basic-syntax/strings.md)
+- [User Input](basic-syntax/user-input.md)
+- [Functions](basic-syntax/functions.md)
+- [Pointers](basic-syntax/pointers.md)
+- [Enums](basic-syntax/enums.md)
+- [Structures](basic-syntax/structures.md)
+- [Union](basic-syntax/union.md)
+- [Bit Fields](basic-syntax/bitfields.md)
+- [Files](basic-syntax/files.md)
 
-## Memory Managements
+## Memory Management
 
+- [Memory Address](memory-management/memory-address.md)
+- [Memory Management](memory-management/memory-management.md)

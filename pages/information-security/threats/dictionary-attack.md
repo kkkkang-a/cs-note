@@ -8,4 +8,4 @@ A dictionary attack is considered a type of [brute-force attack](brute-force-att
 
 The dictionary attack is fast, but limited by the word in the dictionary. It is usually limited to passwords of a reasonable length.
 
-It is possible to achieve a time–space tradeoff by pre-computing a list of hashes of dictionary words and storing these in a database using the [hash](../defenses/cryptography/hash-functions.md) as the key. A more refined approach involves the use of [rainbow tables](rainbow-table-attack.md).
+It is possible to achieve a time–space tradeoff by pre-computing a list of hashes of dictionary words and storing these in a database using the [hash](../defences/cryptography/hash-functions.md) as the key. A more refined approach involves the use of [rainbow tables](rainbow-table-attack.md).

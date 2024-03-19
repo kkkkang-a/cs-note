@@ -9,10 +9,13 @@
 - [Algorithms](pages/data-structures-and-algorithms/algorithms/algorithms.md)
 - [Data Structures](pages/data-structures-and-algorithms/data-structures/data-structures.md)
 
-## Cybersecurity
+## Information Security
 
-- [Threats](pages/cybersecurity/threats/threats.md)
-- [Defenses](pages/cybersecurity/defenses/defenses.md)
+- [Information Security](pages/information-security/information-security.md)
+	- [Computer Security](pages/information-security/categories/computer-security.md)
+	- [Network Security](pages/information-security/categories/network-security.md)
+- [Threats](pages/information-security/threats/threats.md)
+- [Defences](pages/information-security/defences/defences.md)
 
 ## Programming Languages
 

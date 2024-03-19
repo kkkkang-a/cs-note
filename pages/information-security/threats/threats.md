@@ -6,4 +6,4 @@ A threat is a potential negative action or event facilitated by a vulnerability 
 
 - [Brute Force Attack](brute-force-attack.md)
 - [Dictionary Attack](dictionary-attack.md)
-- [Rainbow Table Attack](threats/rainbow-table-attack.md)
+- [Rainbow Table Attack](rainbow-table-attack.md)

@@ -33,3 +33,21 @@ Second preimage resistance is an expected property of cryptographic hash functio
 In other words, given a hash function and one document (or one hash), it's challenging for an attacker to find another document that results in the same hash. A successful second preimage attack would have significant implications for security, as it could lead to the creation of fraudulent data or the compromise of authentication systems.
 
 If a second preimage attack were practical against the cryptographic hash functions that we deploy, it would undermine the trust and reliability of various security protocols and mechanisms reliant on hash functions. Thus, ensuring the robustness of hash functions against such attacks is crucial for maintaining the integrity and security of cryptographic systems.
+
+## Implemation
+
+SHA-256 is a USA standard hash algorithm, Python provides a library `hashlib` for this.
+
+```python
+import hashlib
+
+h = hashlib.sha256("green eggs")
+h.hexdigest()
+h.update(" and ham")
+h.hexdigest()
+```
+
+```stdout
+> 6a3d501466f63d04d8ecd9ff3efe376e7784d0a3bbb21a9ce2fe4be12f77fbd2a
+> 113a9854ab71a4914e219e181ca8bfd48d7d65bdb1c3cb1bad6235c5f1acf23
+```

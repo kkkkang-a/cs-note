@@ -16,6 +16,6 @@ Cryptography in cybersecurity can be used to secure communications by encrypting
 
 ## Cryptographic Attacks
 
-- [Brute Force Attack](threats/brute-force-attack.md)
-- [Dictionary Attack](threats/dictionary-attack.md)
-- [Rainbow Table Attack](threats/rainbow-table-attack.md)
+- [Brute Force Attack](../../threats/brute-force-attack.md)
+- [Dictionary Attack](../../threats/dictionary-attack.md)
+- [Rainbow Table Attack](../../threats/rainbow-table-attack.md)
