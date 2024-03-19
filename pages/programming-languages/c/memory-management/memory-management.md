@@ -2,32 +2,7 @@
 
 Memory is a long array of 8 bit pieces called bytes. Memory can be represented as an array, where the index is a [memory address](memory-address.md).
 
-The memory allocation can be done either before or at the time of program implementation. There are two techniques for memory allocation: static memory allocation and dynamic memory allocation
-
-## Memory Structures
-
-![memory-layout](../../../../images/memory-layout.png)
-
-### Stacks
-
-In C, all variables local to a function and function arguments are stored on the [stack](../../../computer-architectures/memory.md#stacks).
-
-To call a function the code does:
-- `push` arguments onto stack
-- `push` return address onto stack
-- `jump` to function code
-
-Inside the function, the code does the following:
-1. Increment the stack pointer to allow space for the local variables
-2. Execute the code  
-3. Pop local variables and arguments off the stack push the return result onto the stack  
-4. Jump to return address
-
-### Heaps
-
-Memory may be dynamically allocated at run-time from an area known as “the heap”.
-
-Unlike the stack, which meets the temporary storage demands associated with called functions, the heap is accessed under direct programmer control.
+The memory allocation can be done either before or at the time of program implementation. There are two techniques for memory allocation: static memory allocation and dynamic memory allocation.
 
 ## Static Memory Allocation
 
@@ -45,11 +20,25 @@ const int maxScore = 10;    // Constant, can not be changed
 
 In this type of allocation, system memory is managed at runtime.
 
-Dynamic memory management in C programming language is performed using the `malloc()`, `calloc()`, `realloc()`, and `free()` functions.
-
-These four functions are defined in the `<stdlib.h>` C standard library header file. It uses the heap space of the system memory.
-
+Dynamic memory management in C programming language is performed using the functions:
 - [`malloc()`](malloc.md)
 - [`calloc()`](calloc.md)
 - [`realloc()`](realloc.md)
 - [`free()`](free.md)
+
+These four functions are defined in the `<stdlib.h>` C standard library header file. It uses the heap space of the system memory.
+
+## Safety Issues
+
+**Caution 1**: De-allocate memory that is no longer required.
+- While the system should de-allocate resources on termination, it is good practice to take control of this process.
+- In some Java programs there is a noticeable performance dip when the automatic “garbage collection” functionality kicks in.
+
+**Caution 2**: Never attempt to de-allocate memory that has not been allocated.
+- A common error is to try to free memory that has already been de-allocated, or was never allocated in the first instance.
+
+**Caution 3**: Never try to use memory that has been de-allocated.
+
+**Caution 4**: Know the memory allocation requirements before allocation.
+- Use of the sizeof operator addresses the more obvious problems.
+- A common problem is to forget that a string includes a `\0` terminating character.

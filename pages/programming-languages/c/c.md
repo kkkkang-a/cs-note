@@ -23,4 +23,9 @@ C is strongly associated with UNIX, as it was developed to write the UNIX operat
 ## Memory Management
 
 - [Memory Address](memory-management/memory-address.md)
+- [Memory Structure](memory-management/memory-structure.md)
 - [Memory Management](memory-management/memory-management.md)
+
+## Data Structures
+
+- [Dynamic Data Structures](dynamic-data-structures/dynamic-data-structures.md)

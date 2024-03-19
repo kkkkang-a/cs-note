@@ -17,8 +17,6 @@ This takes previously-allocated memory and attempts to resize it.
 
 This may require a new block of memory to be found, so it returns a new void pointer to memory.
 
-Contents are preserved.
-
 ## Example
 
 ```c
