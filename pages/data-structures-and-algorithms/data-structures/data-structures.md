@@ -23,6 +23,7 @@ The distinction between ADTs and data structures is subtle but akin to the diffe
     - [Linked Lists](linked-lists.md)
 - [Stacks](stacks.md)
 - [Queues](queues.md)
+	- [Priority Queues](priority-queue.md)
 - [Trees](trees.md)
     - [Binary Trees](binary-trees.md)
 - [Maps](maps.md)

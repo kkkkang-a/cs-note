@@ -8,13 +8,14 @@ It works byte by byte to transform plain text into code that's unreadable to any
 
 A symmetric cipher key, as opposed to an asymmetric cipher key, is an encryption tool that is used in both encryption and decryption.
 
-Asymmetric keys will sometimes use one key to encrypt a message and another to decrypt the respective ciphertext.
+Asymmetric keys will sometimes use one key to encrypt a message and another to decrypt the respective cipher text.
 
 ## Implementation
 
 Stream ciphers can be implemented using algorithms that generate a key stream from a key and an initialization vector (IV). This key stream is then XORed with the plaintext stream to produce the ciphertext.
 
 For example, given the key, the message can be encrypted and decrypted.
+
 ```
 Encryption:
 Original    0   0   0   1   1   1   1   1

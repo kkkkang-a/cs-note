@@ -4,7 +4,7 @@ Cryptography in cybersecurity can be used to secure communications by encrypting
 
 ## Traditional Cryptography
 
-- [One-Time-Pad (OTP)](one-time-pad.md)
+- [One Time Pad (OTP)](one-time-pad.md)
 
 ## Modern Cryptography
 

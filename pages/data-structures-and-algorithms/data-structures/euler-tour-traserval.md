@@ -1,8 +1,8 @@
-# Euler Tour Traserval
+# Euler Tour Traversal
 
 Euler tour is defined as a way of traversing tree such that each vertex is added to the tour when we visit it (either moving down from parent vertex or returning from child vertex).
 
-It is aeneric traversal of a binary tree. Includes as special cases the [preorder](preorder-traversal.md), [postorder](postorder-traversal.md) and [inorder](binary-trees.md#inorder-traversal) traversals
+It is generic traversal of a binary tree. Includes as special cases the [preorder](preorder-traversal.md), [postorder](postorder-traversal.md) and [inorder](binary-trees.md#inorder-traversal) traversals
 
 We start from root and reach back to root after visiting all vertices.
 

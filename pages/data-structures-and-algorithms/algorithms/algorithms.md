@@ -19,3 +19,9 @@ different algorithms. It bounds the algorithm’s worst-case performance.
 An algorithm is efficient if it runs in polynomial time.
 
 - [Asymptotic Growth Analysis](asymptotic-growth-analysis.md)
+
+## Sorting Algorithms
+
+- [Selection Sort](selection-sort.md)
+- [Insertion Sort](insertion-sort.md)
+- [Heap Sort](heap-sort.md)
