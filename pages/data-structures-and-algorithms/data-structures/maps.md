@@ -38,6 +38,10 @@ Only feasible if map is very small or if we put things at the end and do not nee
 
 ![list-based-map](../../../images/list-based-map.png)
 
+`put` takes $O(1)$ time if the key doesn’t exist yet since we can insert the new item at the beginning or at the end of the sequence.
+
+`put`, `get` and `remove` take $O(n$) time since in the worst case we must traverse the entire sequence to look for an item with the given key.
+
 ### Tree-Based (Sorted) Map
 
 We can implement a sorted map using an [AVL tree](avl-trees.md), where each node stores a key-item pair.

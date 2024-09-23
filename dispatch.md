@@ -4,6 +4,10 @@
 
 - [Operating System](pages/operating-system/operating-system.md)
 
+## Computer Network
+
+- [Computer Network](pages/computer-network/computer-network.md)
+
 ## Data Structures and Algorithms
 
 - [Algorithms](pages/data-structures-and-algorithms/algorithms/algorithms.md)
@@ -24,4 +28,6 @@
 
 ## Data Science
 
-- [Data Analysis](pages/data-science/data-analysis/data-analysis.md)
+- [Exploratory Data Analysis](pages/data-science/exploratory-data-analysis/exploratory-data-analysis.md)
+- [Statistic Inference](pages/data-science/statistic-inference/statistic-inference.md)
+	- [Lists of Statistical Tests](pages/data-science/statistic-inference/statistical-tests.md)
